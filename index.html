@@ -4,22 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Stopwatch</title>
     <!-- CSS only -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
-    <div class="wrapper">
+    <div class="container-sm" id="outer-container">
         <h1>Stopwatch</h1>
         <p><span id="seconds">00</span>:<span id="tens">00</span></p>
-        <button id="button-start">Start</button>
-        <button id="button-stop">Stop</button>
-        <button id="button-reset">Reset</button>
+        <button type="button" class="btn btn-info" id="button-start" style="color: whitesmoke" border-style="solid" border-color="violet">Start</button>
+        <button type="button" class="btn btn-info" id="button-stop" style="color: whitesmoke">Stop</button>
+        <button type="button" class="btn btn-info" id="button-reset" style="color: whitesmoke">Reset</button>
     </div> 
-
-    <script>
-        document.getElementById("wrapper").innerHTML = "";
-    </script>
 
 <script src="script.js">
 </script>

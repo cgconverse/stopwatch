@@ -1,0 +1,10 @@
+.container-sm {
+    width: 401;
+    height: 308;
+    /* border: 2px blue; */
+    border-radius: 50;
+};
+
+h1 {
+    color: lightpink;
+}
